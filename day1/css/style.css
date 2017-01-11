@@ -1,0 +1,52 @@
+h1 {color: #66CCFF;
+
+}
+span {color: red;
+font-weight: bold;
+background-color: lightblue;
+
+}
+a {font-weight: bold;
+    font-style: italic;
+/*comment */
+
+}
+ p {background-color: rgba(0, 0, 0, 0.5);
+ padding: 20px
+    
+ }
+
+ p.red {
+background-color:red;
+
+ }
+ .green {
+     background-color:green;
+ }
+ .blue {
+     background-color:blue;
+ }
+
+
+ p.red a, p.green a {
+     color: white;
+ }
+
+ 
+li.unseen.meh{
+    color: grey;
+}
+
+a {
+  text-decoration: none;
+}
+.green a:hover {
+  text-decoration: underline;
+  
+}
+
+.blue a:hover {
+  text-decoration: none;
+  
+}
+
