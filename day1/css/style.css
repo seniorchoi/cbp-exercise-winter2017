@@ -1,7 +1,22 @@
 h1 {color: #66CCFF;
 
 }
-span {color: red;
+
+.h {
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+
+font-family: Impact, Charcoal, sans-serif;
+}
+
+body {
+font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+span {color: black;
 font-weight: bold;
 background-color: lightblue;
 
@@ -12,19 +27,26 @@ a {font-weight: bold;
 
 }
  p {background-color: rgba(0, 0, 0, 0.5);
- padding: 20px
+ padding: 20px;
     
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
  }
 
  p.red {
-background-color:red;
+    font-size: 5px;
+background-color:orange;
+line-height: 20px;
 
  }
  .green {
      background-color:green;
+     font-style: italic;
  }
  .blue {
      background-color:darkblue;
+
  }
 
 
@@ -50,3 +72,4 @@ a {
   
 }
 
+.seen.good { color:blue;}
